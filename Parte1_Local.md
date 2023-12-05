@@ -29,7 +29,7 @@ Para iniciar um repositório Git em um diretório existente, utilize o seguinte 
 git init
 Este comando cria um repositório Git local no diretório atual.
 
-##Adição de Arquivos ao Repositório
+## Adição de Arquivos ao Repositório
 Para adicionar arquivos ao controle de versão, utilize o comando:
 
 
@@ -40,14 +40,14 @@ Se você quiser adicionar todos os arquivos no diretório, use:
 
 
 git add .
-##Realização de Commits
+## Realização de Commits
 Após adicionar os arquivos, é necessário realizar um commit para salvar as alterações. Execute o seguinte comando:
 
 
 git commit -m "Mensagem do Commit"
 Certifique-se de fornecer uma mensagem clara e concisa que descreva as alterações realizadas.
 
-##Verificação do Status
+## Verificação do Status
 Para verificar o status do seu repositório e visualizar as alterações não commitadas, utilize:
 
 git status
@@ -71,7 +71,7 @@ Ou combine os dois passos usando:
 
 
 git checkout -b nome-da-branch
-##Merge de Branches
+## Merge de Branches
 Para mesclar uma branch de volta à branch principal, utilize:
 
 
@@ -79,7 +79,7 @@ git checkout main
 git merge nome-da-branch
 Certifique-se de resolver quaisquer conflitos que possam surgir durante o processo de merge.
 
-##Remoção de Arquivos
+## Remoção de Arquivos
 Se você precisar remover um arquivo do controle de versão, use:
 
 bash
