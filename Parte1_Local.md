@@ -82,7 +82,7 @@ Certifique-se de resolver quaisquer conflitos que possam surgir durante o proces
 ## Remoção de Arquivos
 Se você precisar remover um arquivo do controle de versão, use:
 
-bash
+
 
 git rm nome-do-arquivo
 git commit -m "Remover arquivo"
