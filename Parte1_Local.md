@@ -20,11 +20,11 @@ Antes de começar a usar o Git, é necessário configurar suas informações pes
 ```bash
 git config --global user.name "Seu Nome"
 git config --global user.email "seu@email.com"
-
+bash
 ## Inicialização de um Repositório
 Para iniciar um repositório Git em um diretório existente, utilize o seguinte comando:
 
-bash
+
 
 git init
 Este comando cria um repositório Git local no diretório atual.
